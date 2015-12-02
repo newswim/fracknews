@@ -40,6 +40,6 @@ fracknews/FrackNews:
 
   Exec:
     - export PORT=3000
-    - export MONGO_URL=mongodb://localhost:27017
-    - export ROOT_URL=https://52.35.58.226
+    # - export MONGO_URL=mongodb://localhost:27017
+    - export ROOT_URL=http://
     - /usr/bin/node build/bundle/main.js
