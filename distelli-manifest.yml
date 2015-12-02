@@ -6,7 +6,7 @@ fracknews/FrackNews:
 
   Build:
     - echo "Begin Build"
-    - npm install
+    # - npm install
 
   PreInstall:
     - echo "Begin PreInstall"
