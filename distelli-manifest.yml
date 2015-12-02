@@ -6,7 +6,7 @@ fracknews/FrackNews:
 
   Build:
     - echo "Begin Build"
-    # - npm install
+    - npm install
 
   PreInstall:
     - echo "Begin PreInstall"
@@ -36,11 +36,10 @@ fracknews/FrackNews:
     #Build Meteor App
     - /usr/local/bin/meteor build ./build --directory
     - cd build/bundle/programs/server/
-  #  - npm install
+    - npm install
 
   Exec:
-    - meteor
-  #  - export PORT=3000
-  #  - export MONGO_URL=mongodb://localhost:27017
-  #  - export ROOT_URL=https://
-  #  - /usr/bin/node build/bundle/main.js
+    - export PORT=3000
+    - export MONGO_URL=mongodb://localhost:27017
+    - export ROOT_URL=https://
+    - /usr/bin/node build/bundle/main.js
