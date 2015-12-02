@@ -1,0 +1,24 @@
+fracknews/FrackNews:
+
+  #Learn about the distelli-manifest.yml at https://www.distelli.com/docs/reference/distelli-manifest
+  PkgInclude:
+    - '*'
+
+  Build:
+    - echo "Begin Build"
+    - curl https://install.meteor.com | /bin/sh
+    #- npm install
+    #- npm test
+
+  PreInstall:
+    - echo "Begin PreInstall"
+    #- sudo apt-get -y update
+    #- sudo apt-get -y install nodejs
+    #- sudo apt-get -y install npm
+
+  PostInstall:
+    - echo "Begin PostInstall"
+
+  Exec:
+    #- /usr/bin/nodejs app.js
+    - meteor
