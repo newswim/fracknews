@@ -6,4 +6,4 @@
 
 [ ] Official deploy coming soon
 
-This app is deployed to [fracknews.meteor.com](fracknews.meteor.com)
+Demo version of app is running on [fracknews.meteor.com](http://fracknews.meteor.com)
