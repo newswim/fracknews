@@ -5,3 +5,5 @@
 #### - Henry David Thoreau
 
 [ ] Official deploy coming soon
+
+This app is deployed to fracknews.meteor.com
