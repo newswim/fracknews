@@ -39,7 +39,8 @@ fracknews/FrackNews:
     - npm install
 
   Exec:
-    - export PORT=3000
-    - export MONGO_URL=mongodb://127.0.0.1:27017/local
-    - export ROOT_URL=https://ec2-52-24-69-248.us-west-2.compute.amazonaws.com
+    - export PORT=80
+    - export MONGO_URL=mongodb://mongo:27017/fracknews
+    - export MONGO_OPLOG_URL=mongodb://mongo:27017/local
+    - export ROOT_URL=http://127.0.0.1
     - /usr/bin/node build/bundle/main.js
