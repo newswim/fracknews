@@ -5,3 +5,5 @@
 #### - Henry David Thoreau
 
 [ ] Official deploy coming soon
+
+Demo version of app is running on [fracknews.meteor.com](http://fracknews.meteor.com)
